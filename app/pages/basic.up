@@ -1,0 +1,16 @@
+^layout basic
+
+<h1>I am basic</h1>
+
+<p>I am content</p>
+
+<hr>
+
+^for _, s := range StudentList {
+  <div>
+    <h2>^s.Name</h2>
+    <p>^s.ID</p>
+  </div>
+}
+
+<hr>
